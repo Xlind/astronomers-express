@@ -1,0 +1,318 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	}
+
+/*顶部	*/
+#ding1{
+	vertical-align: top;
+	text-align: right;
+	color: white;
+}
+#ding2{
+	font-size: 4;
+	color: white;
+	font-family: "source-sans-pro";
+	text-decoration:none;
+}
+
+/*导航*/
+#divdh{
+	width: 100%;
+	height: 100px;
+	background-color:#0d1a28;
+
+}
+.dh{
+	display:inline-block;
+	height:50px;/*在默认情况下高度不起作用*/
+	width: 200px;
+	font-size:30px;
+	font-family: "source-sans-pro";
+	text-align:center; /*设置文水平本居中显示*/
+	line-height:50px;/*设置文本行高，单行垂直居中*/
+	color:white;
+	text-decoration:none;
+}
+.dh:hover{
+		background:#3B4A5A;
+	color:white;
+}
+#dhbotton{
+	/* float: right; */
+	width: 300px;
+	height: 50px;
+	font-size: 30px;
+	position: absolute; 
+	right: 20px;
+	/* left: 500px;  
+	z-index: 1; */
+}
+
+/*最新讯息*/
+#divtop{
+	margin: 0 auto;
+	width: 1024px;
+	height: 330px;
+}
+#divtop1{
+	width: 1024px;
+	height: 30px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	background: #d8eefb;
+}
+.biaoti{
+	text-indent: 20px;
+	line-height: 40px;
+	font-weight: 800;
+	font-size: 20px;
+	font-family:"source-sans-pro";
+    color: #2969b0;	
+	float: left;
+}
+.gengduo{
+	margin-right: 5px;
+	width: 30px;
+	height: 30px;
+	line-height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "source-sans-pro";	
+    color: #2969b0;	
+	text-decoration:none;
+	float:right;
+}
+
+#divtop2{
+	width: 1004px;
+	height: 280px;
+	border: #d8eefb solid 10px;
+}
+#divtop3{
+	width: 540px;
+	height: 280px;
+	line-height: 30px;
+	text-indent:30px;
+	float:right;
+}
+.bb{
+	font-size: 15px;
+	color:#2969b0;
+	font-family: "source-sans-pro";
+	text-decoration:none;
+}
+.cc{
+	font-size:20px;
+	color:#525c66;
+	font-family: "source-sans-pro";
+	text-decoration:none;
+}
+
+/*中间*/
+
+/*星闻天天报*/
+#divcenter{
+	margin: 0 auto;
+	width: 1024px;
+	height: 1050px;
+}
+#divcenter-left{
+	width: 680px;
+	height: 1050px;
+	float: left;
+}
+/*星空大讲堂*/
+#divcenter1{
+	margin: 0 auto;
+	width: 1024px;
+	height: 1280px;
+}
+#divcenter-left1{
+	width: 680px;
+	height: 1280px;
+	float: left;
+}
+/*天文画中游*/
+#divcenter2{
+	margin: 0 auto;
+	width: 1024px;
+	height: 1680px;
+}
+#divcenter-left2{
+	width: 680px;
+	height: 1680px;
+	float: left;
+}
+/*C1*/
+#divcenter3{
+	margin: 0 auto;
+	width: 1024px;
+	height: 3150px;
+}
+#divcenter-left3{
+	width: 660px;
+	height: 3150px;
+	float: left;
+	border: #d8eefb 10px solid;
+}
+/*C2*/
+#divcenter4{
+	margin: 0 auto;
+	width: 1024px;
+	height: 2150px;
+}
+#divcenter-left4{
+	width: 660px;
+	height: 2150px;
+	float: left;
+	border: #d8eefb 10px solid;
+}
+/*中间的右盒子*/
+#divcenter-right{
+	width: 320px;
+	height: 800px;
+	padding-left: 10px;
+	float: left;
+
+}
+#divcenter-right1{
+	width: 320px;
+	height:380px;
+}
+#divcenter-right2{
+	width: 320px;
+	height:420px;
+}
+.hr1{
+	width: 100%;
+	height: 10px;
+	background: #d8eefb; 
+}
+.dd{
+	line-height:48px;
+	text-decoration:none;
+}
+.ee{
+	text-align: left;
+	font-size:24px;
+	color:#525c66;
+	font-family: "source-sans-pro";
+	text-decoration:none;  
+}
+.ff{
+	font-size: 15px;
+	color:#122139;
+	font-family: "source-sans-pro";
+	text-decoration:none;
+
+}
+.gg{
+	font-weight: bold;
+	color:#1E203D;
+	font-size:20px;
+	line-height: 40px;
+	font-family: "source-sans-pro";
+	text-decoration:none;
+
+}
+.hh{
+	font-size: 15px;
+	color:#122139;
+	line-height: 30px;
+	font-family: "source-sans-pro";
+	text-decoration:none;
+}
+.ii{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	font-family: "source-sans-pro";
+}
+
+.jj{
+	width: 630px;
+	padding: 15px;
+	font-size: 18px;
+	font-family: "source-sans-pro";
+	text-align: justify;
+	text-indent:2em;
+	line-height:2em;
+}
+.ll{
+	font-size: 14px;
+	text-align: center;
+	font-family: "source-sans-pro";
+}
+.ll1{
+	font-size: 14px;
+	font-family: "source-sans-pro";
+	text-indent:2em;
+}
+.kk{
+	font-size: 18px;
+	color:#122139;
+	text-indent: 20px;
+	line-height: 30px;
+	font-family: "source-sans-pro";
+	text-decoration:none;
+}
+.hr2{
+	width: 10px;
+	height: 1070px;
+	background: #d8eefb; 
+	float: right;
+}
+.hr22{
+	width: 10px;
+	height: 1280px;
+	background: #d8eefb; 
+	float: right;
+}
+.hr222{
+	width: 10px;
+	height: 1680px;
+	background: #d8eefb; 
+	float: right;
+}
+h1{
+	text-align: left;
+	color: #48515a;
+	font-family: "source-sans-pro";
+}
+a{
+
+	text-decoration:none;
+}
+
+h2{
+	text-align: center;
+	color: #48515a;
+	font-family: "source-sans-pro";
+	
+}
+.kk:hover{color: red;}
+.gg:hover{color: red;}
+.gengduo:hover{color: red;}
+.cc:hover{color: red;}
+
+/*底部*/
+.hr3{
+	margin-top: 60px;
+	width: 100%;
+	height: 5px;
+	background: #0d1a28;
+}
+#divbottom{
+	width:100%;
+	height: 50ps;
+	background: #2a3e4e;
+	color: white;
+	font-size: 24px;
+	font-family:"source-sans-pro";
+	text-align: center;
+	line-height: 50px;
+	float: left;
+}
+

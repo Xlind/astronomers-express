@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>注册</title>
+<style type="text/css">
+	*{
+	margin:0;
+	padding:0;
+	}
+	body{
+	background-image: url(./public/image/180152_44136_url.png);
+	}
+    #layout{
+	margin:0px auto;
+	margin-top:70px;
+	width:500px;
+    height: 320px;
+     }
+	.black{
+		width:500px;
+	    height: 30px;
+	    border-top-left-radius: 20px;
+	    border-top-right-radius: 20px;
+		font-size: 25px;
+	    font-family:"source-sans-pro";
+        color: black;
+		text-align: center;
+		line-height: 40px;
+		background:rgba(207,207,207,0.75);
+	}
+	.kuang{
+		width: 480px;
+		height: 270px;
+		border: solid 10px rgba(207,207,207,0.75);
+		text-indent: 90px;
+		background-color:rgba(207,207,207,0.42);
+	    
+	}
+	.zhuce{
+		width: 70px;
+		height: 30px;
+		border-radius: 10px;
+		font-size: 20px;
+		font-family: "source-sans-pro";
+		color: black;
+		background:#d8eefb;
+	}
+	.aa{
+		text-indent: 210px;
+	}
+	p{
+		font-family: "source-sans-pro";
+		font-size: 20px;
+	    color: black;	
+	}
+	a{
+		text-decoration: none;
+	}
+	input,textarea{
+		background-color:rgba(207,207,207,0.42);
+	}
+	</style>
+	<script type="text/javascript">
+    /* 登录 */
+    function login() {
+        // 当前窗口打开首页界面
+        window.location.href="/";
+    }
+	</script>
+</head>
+
+<body>
+<div id="layout">
+<div class="black">登录</div>
+<div class="kuang">
+	<label>
+	    <br><br>
+		<p>&nbsp;&nbsp;账户：<input type="text" name="user_name" id="user_name" size="20" maxlength="20"></p></label><br>
+	<label>
+		<p>&nbsp;&nbsp;密码：<input type="password" name="password" id="password" maxlength="16"></p></label><br>
+       <label>
+	   <p class="aa"><input type="submit" class="zhuce" onclick="login()" value="登录" /></p></label>
+	   <br><br><a href="#"><p class="aa"> 忘记密码？</p></a>
+	</div></div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>天文科普网</title>
+<link href="./public/css/astronomers.css" rel="stylesheet">
+<script src="./public/js/jquery-1.11.1.min.js"></script>
+<script src="./public/js/unslider.min.js"></script>
+</head>
+
+<body>
+<!--顶部-->
+<table background="./public/image/tianwen_01.png" height="246" width="100%">
+<td id="ding1"><a href="/enroll" id="ding2">注册</a>&nbsp;&#124;&nbsp;<a href="/login" id="ding2">登录</a></td>
+</table>
+
+<!--导航-->
+<div id="divdh">
+	<a href="/" class="dh">首页</a>
+	<a href="/xwttb" class="dh">星闻天天报</a>
+	<a href="/xkdjt" class="dh">星空大讲堂</a>
+	<a href="/zxfsy" class="dh">追星发烧友</a>
+	<a href="/twhzy" class="dh">天文画中游</a>
+	<a href="/lt" class="dh">论坛</a>
+
+   <div id="dhbotton">
+    <input type="search" name="search" id="" value="在这里输入">&nbsp;<input type="button" id="" value="搜索"></div>
+</div>
+
+<!--banner-->
+<img src="./public/image/tianwen_03.png" width="100%" height="278" alt=""/>
+<br><br>
+
+<!--网页推荐-->
+<div id="divtop">
+<div id="divtop1"><p class="biaoti">网页推荐</p><a href="#" class="gengduo">>></a></div>
+<div id="divtop2">
+<div id="divtop3">
+<div class="lunbo" id="b04">
+    <ul>
+        <li><a href="#"><img src="./public/image/tianwen_06.png" width="443" height="280" alt=""/></a></li>
+        <li><a href="#"><img src="./public/image/tianwen_04.png" width="443" height="280" alt=""/></a></li>
+        <li><a href="#"><img src="./public/image/tianwen_05.png" width="443" height="280" alt=""/></a></li>
+        <li><a href="#"><img src="./public/image/tianwen_07.png" width="443" height="280" alt=""/></a></li>
+        <li><a href="#"><img src="./public/image/tianwen_08.png" width="443" height="280" alt=""/></a></li>
+    </ul>
+    <a href="javascript:void(0);" class="unslider-arrow04 prev"><img class="arrow" id="al" src="./public/image/arrowl.png" alt="prev" width="20" height="35"></a>
+    <a href="javascript:void(0);" class="unslider-arrow04 next"><img class="arrow" id="ar" src="./public/image/arrowr.png" alt="next" width="20" height="37"></a>
+    <!-- 用js控制 -->
+<script>
+$(document).ready(function(e) {
+    var unslider04 = $('#b04').unslider({
+        dots: true
+    }),
+    data04 = unslider04.data('unslider');
+     
+    $('.unslider-arrow04').click(function() {
+        var fn = this.className.split(' ')[1];
+        data04[fn]();
+    });
+});
+</script>
+</div></div>
+
+<div id="divtop4">
+<li><a href="/cone" class="cc">39光年外新“超级地球”现身</a></li>
+<li><a href="/ctwo" class="cc">哈勃观测近距离的木星（go）</a></li>
+<li><a href="#" class="cc">带喷流的黑洞吸积</a></li>
+<li><a href="#" class="cc">幽灵粒子？极难寻找的惰性中微子可能不存在</a></li>
+<li><a href="#" class="cc">视界面望远镜与首张黑洞照片</a></li>
+</div>
+</div></div>
+<br>
+
+<!--中间部分-->
+<div id="divcenter">
+  <div id="divcenter-left"><p class="biaoti">视频资源</p><a href="#" class="gengduo">>></a><br><br><p class="hr1"></p><p class="hr2"></p>
+<div id="divcenter-left1"><a href="#" class="dd">
+<img src="./public/image/tianwen_13.png" width="174" height="187" alt=""/>
+<img src="./public/image/tianwen_16.png" width="173" height="184" alt=""/>
+<img src="./public/image/tianwen_21.png" width="172" height="186" alt=""/>
+<img src="./public/image/tianwen_23.png" width="174" height="186" alt=""/></div>
+<div id="divcenter-left2">
+	<a href="#" class="ee">世界的真正奥秘之所在，并不是不可见之物，而是可见之物。>></a><br></div>
+	<div id="divcenter-left2">
+	<a href="#" class="ee">黑色熔炉的中央，送出无数太阳的地方，无穷的魔力在蕴藏。>></a></div>
+	<div id="divcenter-left2">
+	<a href="#" class="ee">在广漠沉寂的星空里，我们为失去的太阳悲泣。>></a></div>
+	<div id="divcenter-left2">
+	<a href="#" class="ee">如果一个人能对着天上的事物沉思，那么在他面对人间时就会更加高尚。>></a></div>
+	  </div>
+  <div id="divcenter-right">
+  <div id="divcenter-right1"><p class="biaoti">太阳活动实况及预报</p><a href="#" class="gengduo">>></a>
+    <br><br><p class="hr1"></p><a href="#"><img src="./public/image/tianwen_10.png" width="317" height="321" alt=""/></a></div>
+  <div id="divcenter-right2"><p class="biaoti">公告</p><a href="#" class="gengduo">>></a><br><br><p class="hr1"></p><h1>5月天文预告5月6日</h1><br><h2>宝瓶座流星雨<br>7日&nbsp;水星东大距<br>23日&nbsp;土星冲日<br>下半旬&nbsp;水土火木肉眼可见</h2><br><h1>5月天文活动</h1><h2><a href="#" class="gg">“塞外猎星”天文活动公告>></a></h2><br><h2><a href="#" class="gg">“丝路星途”天文活动公告>></a></h2><br></div>
+   </div>
+  </div>
+  <br><br><br><br><br>
+<!--  底部-->
+<p class="hr3"></p>
+<div id="divbottom">版权所有 © xlind1220.com</div>
+
+
+</body>
+</html>
